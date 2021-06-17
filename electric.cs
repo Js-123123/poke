@@ -36,31 +36,31 @@ class Electric : Pokemon{
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
     attackD = Thunder;
-    nAttack = "";
+    nAttack = "Thunder";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 2){
     attackD = BoltStrike;
-    nAttack = "";
+    nAttack = "Bolt Strike";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 3){
-    nAttack = "";
+    nAttack = "Max Lightning";
     attackD = MaxLightning;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 4){
-    nAttack = "";
+    nAttack = "Overdrive";
     attackD = Overdrive;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
-    nAttack = "";
+    nAttack = "Parabolic Charge";
     attackD = ParabolicCharge;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
-    nAttack = "";
+    nAttack = "Electrify";
     attackD = Electrify;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }

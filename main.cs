@@ -87,6 +87,7 @@ class MainClass {
         Random rnd = new Random();
         int number = rnd.Next(0, 6); 
           if(number == 1){
+            
             Console.WriteLine($"{PchoiceO} has fainted");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
@@ -96,17 +97,19 @@ class MainClass {
           }
           else if (number == 2){
             Console.WriteLine($"{PchoiceT} has fainted");
-            PlayerBatNum --;
+            
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
+            PlayerBatNum --;
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
+            
             battleNum --;
           }
           else if (number == 3){
             Console.WriteLine($"{PchoiceH} has fainted ");
-            PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             PlayerBatNum --;
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
+            
             battleNum --;
           }
           else if (number == 4){
@@ -134,8 +137,9 @@ class MainClass {
           else{
             Console.WriteLine($"{CchoiceH} has fainted?");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");  
             BotBatNum --;
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");  
+            
             battleNum --;
           }
           

@@ -35,38 +35,38 @@ class Water : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-    nAttack = "";
+    nAttack = "Hydro Cannon";
     attackD = HydroCannon;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
    
     }
     if(AMnumber == 2){
    
-    nAttack = "";
+    nAttack = "Water Gun";
     attackD = WaterGun;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     
     }
     if(AMnumber == 3){
   
-    nAttack = "";
+    nAttack = "Hydro Pump";
     attackD = HydroPump;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 4){
-    nAttack = "";
+    nAttack = "Water Shuriken";
     attackD = WaterShuriken;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
-    nAttack = "";
+    nAttack = "Hydro Vortex";
     attackD = HydroVortex;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
  
-    nAttack = "";
+    nAttack = "WaterPulse";
     attackD = WaterPulse;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
@@ -88,27 +88,32 @@ class Water : Pokemon{
   public int GetWaterGun(){
     return WaterGun;
   }
+  //getters and setters for the hydro pump move
   public void SetHydroPump(int HY){
     HydroPump = HY;
   }
   public int GetHydroPump(){
     return HydroPump;
   }
+  //the getters and setters for the water Shuriken move
   public void SetWaterShuriken(int WS){
     WaterShuriken = WS;
   }
   public int GetWaterShuriken(){
     return WaterShuriken;
   }
+  //getters and setters for the vortex move
   public void SetHydroVortex(int HV){
     HydroVortex = HV;
   }
   public int GetHydroVortex(){
     return HydroVortex;
   }
+  // getters and setters for the water pulse move
   public void SetWaterPulse(int WP){
     WaterPulse = WP;
   }
+  
   public int GetWaterPulse(){
     return WaterPulse;
   }

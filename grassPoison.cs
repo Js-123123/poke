@@ -35,7 +35,7 @@ class GrassPoison : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-    nAttack = "";
+    nAttack = "Giga Drain";
     attackD = GigaDrain;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
 
@@ -44,32 +44,32 @@ class GrassPoison : Pokemon{
     if(AMnumber == 2){
 
     attackD = MagicalLeaf;
-    nAttack = "";
+    nAttack = "Magical Leaf";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 3){
    
     attackD = SolarBeam;
-    nAttack = "";
+    nAttack = "Solar Beam";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 4){
   
     attackD = SeedBomb;
-     nAttack = "";
+     nAttack = "Seed Bomb";
      Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
   
     attackD = BulletSeed;
-      nAttack = "";
+      nAttack = "Bullet Seed";
       Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
    
     
     attackD = Venoshock;
-       nAttack = "";
+       nAttack = "Venoshock";
        Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
   

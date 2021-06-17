@@ -44,7 +44,7 @@ l. Menu option 3 should run a Battle simulation.
   2) You may choose the Computer's 3 Pokemon however you want. 
   3) The Pokemon that loses the Battle faints.
   4) The Pokemon that wins the Battle should gain experience. If it has enough experience it should evolve.
-  5) Report the winner of the Battle
+  5) Report the winner of the Battle❎
 
 m. Menu option 4) should Reset all of the Player's and Computer's Pokemon to full health ❎
 n. Menu option 5) should save the Pokemon to the csv file. 

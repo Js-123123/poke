@@ -36,32 +36,32 @@ class Grass : Pokemon{
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
     attackD = GigaImpact;
-    nAttack = "";
+    nAttack = "Giga Impact";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 2){
     attackD = MagicalLeaf;
-    nAttack = "";
+    nAttack = "Magical Leaf";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 3){
     attackD = SolarBlade;
-    nAttack = "";
+    nAttack = "Solar Blade";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 4){
     attackD = RockSlide;
-    nAttack = "";
+    nAttack = "Rock Slide";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
     attackD = BulletSeed;
-    nAttack = "";
+    nAttack = "Bullet Seed";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
-    attackD = MagicalLeaf;
-    nAttack = "";
+    attackD = MaxKnuckle;
+    nAttack = "Max Knuckle";
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
 

@@ -41,31 +41,31 @@ class FireDark : Pokemon{
 
     }
     if(AMnumber == 2){
-    nAttack = "";
+    nAttack = "Smog";
     attackD = Smog;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
     
     }
     if(AMnumber == 3){
-    nAttack = "";
+    nAttack = "Foul Play";
     attackD = FoulPlay;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 4){
-    nAttack = "";
+    nAttack = "Flamethrower";
     attackD = Flamethrower;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 5){
-    nAttack = "";
+    nAttack = "Crunch";
     attackD = Crunch;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
  
     }
     if(AMnumber == 6){
-    nAttack = "";
+    nAttack = "Bite";
     attackD = Bite;
     Console.WriteLine($"{nAttack} did {attackD} damage!");
   
