@@ -92,7 +92,7 @@ class MainClass {
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
-            PlayerBatNum --;
+           
             battleNum --;
           }
           else if (number == 2){
