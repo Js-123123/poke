@@ -29,7 +29,6 @@ class MainClass {
     while((line = playFile.ReadLine()) != null){
             string[] fields = line.Split(","); 
               if(fields[8][0] == 'P'){
-                
                 playerList.Add(new Pokemon(line));
                   }
               if(fields[8][0] == 'C'){
@@ -59,15 +58,39 @@ class MainClass {
         }
           break;
         case 3:
-        Console.WriteLine("Battle Begin:");
+        //get player pokemon
+        foreach (Pokemon PokePlayah in playerList){
+          Console.WriteLine(PokePlayah);
+        }
+        Console.WriteLine("\nChoose 1st pokemon");
+        string PchoiceO = Console.ReadLine();
+        Console.WriteLine("Choose 2nd pokemon");
+        string PchoiceT = Console.ReadLine();
+        Console.WriteLine("Choose 3rd pokemon");
+        string PchoiceH = Console.ReadLine();
+        //get computer pokemon
+        foreach (Pokemon PokeCom in computerList){
+          Console.WriteLine(PokeCom);
+        }
+        Console.WriteLine("\nChoose Computer's 1st pokemon");
+        string CchoiceO = Console.ReadLine();
+        Console.WriteLine("Choose Computer's2nd pokemon");
+        string CchoiceT = Console.ReadLine();
+        Console.WriteLine("Choose Computer's3rd pokemon");
+        string CchoiceH = Console.ReadLine();
+        
+        
+        
+        
         //battle loops 
+        
         for (int i = 0; i < 7; i++){
           Random rnd = new Random();
           int number = rnd.Next(0, 6);
           
           while (battleNum != 0){
           if(number == 1){
-            Console.WriteLine("Gigalith has fainted");
+            Console.WriteLine($"{PchoiceO} has fainted");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
@@ -75,14 +98,14 @@ class MainClass {
             battleNum --;
           }
           else if (number == 2){
-            Console.WriteLine("Emboar has fainted");
+            Console.WriteLine($"{PchoiceT} has fainted");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
             battleNum --;
           }
           else if (number == 3){
-            Console.WriteLine("Zekrom has fainted ");
+            Console.WriteLine($"{PchoiceH} has fainted ");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
@@ -90,7 +113,7 @@ class MainClass {
             battleNum --;
           }
           else if (number == 4){
-            Console.WriteLine("Cofagrigus has fainted ");
+            Console.WriteLine($"{CchoiceH} has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
@@ -98,14 +121,14 @@ class MainClass {
           
           }
           else if (number == 5){
-            Console.WriteLine("Hydeigon has fainted ");
+            Console.WriteLine($"{CchoiceO}Hydeigon has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
             battleNum --;
           }
           else if (number == 6){
-            Console.WriteLine("Kyurem has fainted ");
+            Console.WriteLine($"{CchoiceT} has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
@@ -132,7 +155,9 @@ class MainClass {
           break;
         case 5:
         //program exit
+          //StreamWriter outputFile = new StreamWriter("pokemon.csv");
           Console.WriteLine("Thank you for using the program ");
+
           done = true;   
           break;
         default:
@@ -160,4 +185,5 @@ class MainClass {
     Console.Write("\nOption: ");
         return Convert.ToInt32(Console.ReadLine());
       }
+
   }
