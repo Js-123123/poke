@@ -36,36 +36,34 @@ class Electric : Pokemon{
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
     attackD = Thunder;
-    Console.WriteLine($"{attackD}");
-    
-
+   
     }
     if(AMnumber == 2){
     attackD = BoltStrike;
-    Console.WriteLine($"{attackD}");
+   
  
     }
     if(AMnumber == 3){
    
     attackD = MaxLightning;
-    Console.WriteLine($"{attackD}");
+  
     }
     if(AMnumber == 4){
    
     attackD = Overdrive;
-    Console.WriteLine($"{attackD}");
+ 
     }
     if(AMnumber == 5){
   
     attackD = ParabolicCharge;
-    Console.WriteLine($"{attackD}");
+   
     }
     if(AMnumber == 6){
   
     attackD = Electrify;
-    Console.WriteLine($"{attackD}");
+ 
     }
-
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
 
 

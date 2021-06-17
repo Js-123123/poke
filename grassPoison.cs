@@ -37,36 +37,36 @@ class GrassPoison : Pokemon{
     if(AMnumber == 1){
     Console.WriteLine($" uses Thunder");
     attackD = GigaDrain;
-    Console.WriteLine($"{attackD}");
+
 
     }
     if(AMnumber == 2){
 
     attackD = MagicalLeaf;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 3){
    
     attackD = SolarBeam;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 4){
   
     attackD = SeedBomb;
-    Console.WriteLine($"{attackD}");
+ 
     }
     if(AMnumber == 5){
   
     attackD = BulletSeed;
-    Console.WriteLine($"{attackD}");
+  
     }
     if(AMnumber == 6){
    
     
     attackD = Venoshock;
-    Console.WriteLine($"{attackD}");
+   
     }
-
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
 
 

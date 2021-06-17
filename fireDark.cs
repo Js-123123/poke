@@ -37,35 +37,35 @@ class FireDark : Pokemon{
     if(AMnumber == 1){
    
     attackD = Inferno;
-    Console.WriteLine($"{attackD}");
+  
 
     }
     if(AMnumber == 2){
 
     attackD = Smog;
-    Console.WriteLine($"{attackD}");
+    
     }
     if(AMnumber == 3){
 
     attackD = FoulPlay;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 4){
 
     attackD = Flamethrower;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 5){
 
     attackD = Crunch;
-    Console.WriteLine($"{attackD}");
+ 
     }
     if(AMnumber == 6){
 
     attackD = Bite;
-    Console.WriteLine($"{attackD}");
+  
     }
-
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
 
 

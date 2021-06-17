@@ -37,39 +37,37 @@ class Water : Pokemon{
     if(AMnumber == 1){
  
     attackD = HydroCannon;
-
-
-    Console.WriteLine($"{attackD}");
+   
     }
     if(AMnumber == 2){
    
 
     attackD = WaterGun;
-    Console.WriteLine($"{attackD}");
+    
     }
     if(AMnumber == 3){
   
    
     attackD = HydroPump;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 4){
 
     attackD = WaterShuriken;
-    Console.WriteLine($"{attackD}");
+
     }
     if(AMnumber == 5){
 
     attackD = HydroVortex;
-    Console.WriteLine($"{attackD}");
+   
     }
     if(AMnumber == 6){
  
 
     attackD = WaterPulse;
-    Console.WriteLine($"{attackD}");
+    
     }
-
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
 
 
