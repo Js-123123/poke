@@ -30,23 +30,23 @@ g. Create or find a data file (csv recommended) that contains all of the informa
 ❎
 Part 3: Write the Battle Application
 
-h. Create a list of Pokemon for the Player and another for the Computer. Import the Pokemon from the data file. You will need to determine which child class to use to create the object and add it to the appropriate list.
+h. Create a list of Pokemon for the Player and another for the Computer. Import the Pokemon from the data file. You will need to determine which child class to use to create the object and add it to the appropriate list.❎
 i. Create a loop that displays a menu to the user with the following options:❎
   1) Print a list of the Player's Pokemon❎
   2) Print a list of the Computer's Pokemon❎
-  3) Battle!
-  4) Reset all Pokemon
+  3) Battle!❎
+  4) Reset all Pokemon❎
   5) Exit ❎
 j. Make sure to clear the console after each menu selection❎
-k. Menu options 1) and 2) should print the appropriate list to the Console.
+k. Menu options 1) and 2) should print the appropriate list to the Console.❎
 l. Menu option 3 should run a Battle simulation. 
-  1) List the Player's pokemon and ask them to choose 3. 
+  1) List the Player's pokemon and ask them to choose 3. ❎
   2) You may choose the Computer's 3 Pokemon however you want. 
   3) The Pokemon that loses the Battle faints.
   4) The Pokemon that wins the Battle should gain experience. If it has enough experience it should evolve.
   5) Report the winner of the Battle
 
-m. Menu option 4) should Reset all of the Player's and Computer's Pokemon to full health 
+m. Menu option 4) should Reset all of the Player's and Computer's Pokemon to full health ❎
 n. Menu option 5) should save the Pokemon to the csv file. 
 
 These are the minimum requirements for completion, but feel free to add anything else you would like. 

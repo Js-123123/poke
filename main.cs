@@ -46,11 +46,7 @@ class MainClass {
         foreach (Pokemon PokePlayah in playerList){
           Console.WriteLine(PokePlayah);
         }
-            
-          //}
-      
           break;
-          //ListTech(techList);
         case 2:
         //computer pokemon
         foreach (Pokemon PokeCom in computerList){
@@ -83,12 +79,12 @@ class MainClass {
         
         
         //battle loops 
-        
+           
         for (int i = 0; i < 7; i++){
           Random rnd = new Random();
           int number = rnd.Next(0, 6);
           
-          while (battleNum != 0){
+        while (battleNum != 0){ 
           if(number == 1){
             Console.WriteLine($"{PchoiceO} has fainted");
             PlayerBatNum --;
@@ -151,10 +147,17 @@ class MainClass {
           break;
         case 4:
         //reset hp
-          Console.WriteLine($"HP has been reset to max");        
+        foreach(Pokemon pokemon in playerList){    
+          pokemon.Revive();   
+      }
+        foreach(Pokemon pokemon in computerList){  
+          pokemon.Revive();   
+        }
+        Console.WriteLine($"HP has been reset to max");  
           break;
         case 5:
         //program exit
+        //TMR
           //StreamWriter outputFile = new StreamWriter("pokemon.csv");
           Console.WriteLine("Thank you for using the program ");
 
@@ -185,5 +188,5 @@ class MainClass {
     Console.Write("\nOption: ");
         return Convert.ToInt32(Console.ReadLine());
       }
-
-  }
+  
+}

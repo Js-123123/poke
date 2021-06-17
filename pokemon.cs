@@ -135,8 +135,11 @@ class Pokemon{
     }
   // the to string
   public override string ToString(){
-    string msg = string.Format($"{name, -10}  Type: {pokeType, 12}   Level: {level, 3} Speed:{speed, 4}  HP: {curHP}/{maxHP}");
+    string msg = string.Format($"{name, -10}  Type: {pokeType, -12}   Level: {level, 3} Speed:{speed, 4}  HP: {curHP}/{maxHP}");
     return msg;
+  }
+  public void Revive(){
+    curHP = maxHP;
   }
   
 }
