@@ -35,39 +35,42 @@ class Water : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
- 
+    nAttack = "";
     attackD = HydroCannon;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
    
     }
     if(AMnumber == 2){
    
-
+    nAttack = "";
     attackD = WaterGun;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     
     }
     if(AMnumber == 3){
   
-   
+    nAttack = "";
     attackD = HydroPump;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 4){
-
+    nAttack = "";
     attackD = WaterShuriken;
-
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
-
+    nAttack = "";
     attackD = HydroVortex;
-   
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
  
-
+    nAttack = "";
     attackD = WaterPulse;
-    
-    }
     Console.WriteLine($"{nAttack} did {attackD} damage!");
+    }
+  
 
 
 

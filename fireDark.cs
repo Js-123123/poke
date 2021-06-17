@@ -35,37 +35,42 @@ class FireDark : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-   
+       nAttack = "";
     attackD = Inferno;
   
 
     }
     if(AMnumber == 2){
-
+    nAttack = "";
     attackD = Smog;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     
     }
     if(AMnumber == 3){
-
+    nAttack = "";
     attackD = FoulPlay;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 4){
-
+    nAttack = "";
     attackD = Flamethrower;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 5){
-
+    nAttack = "";
     attackD = Crunch;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
  
     }
     if(AMnumber == 6){
-
+    nAttack = "";
     attackD = Bite;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
   
     }
-    Console.WriteLine($"{nAttack} did {attackD} damage!");
+ 
 
 
 

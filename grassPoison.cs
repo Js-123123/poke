@@ -35,38 +35,44 @@ class GrassPoison : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-    Console.WriteLine($" uses Thunder");
+    nAttack = "";
     attackD = GigaDrain;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
 
     }
     if(AMnumber == 2){
 
     attackD = MagicalLeaf;
-
+    nAttack = "";
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 3){
    
     attackD = SolarBeam;
-
+    nAttack = "";
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 4){
   
     attackD = SeedBomb;
- 
+     nAttack = "";
+     Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
   
     attackD = BulletSeed;
-  
+      nAttack = "";
+      Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
    
     
     attackD = Venoshock;
-   
+       nAttack = "";
+       Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
-    Console.WriteLine($"{nAttack} did {attackD} damage!");
+  
 
 
 

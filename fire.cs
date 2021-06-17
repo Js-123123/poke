@@ -36,28 +36,34 @@ class Fire : Pokemon{
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
     attackD = FlameWheel;
-    Console.WriteLine($"{attackD}");
+    nAttack = "";
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
 
     }
     if(AMnumber == 2){
-
+    nAttack = "";
     attackD = BlazeKick;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 3){
-   
+       nAttack = "";
     attackD = HeatWave;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 4){
-  
+      nAttack = "";
     attackD = Inferno;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 5){
-
+    nAttack = "";
     attackD = FirePunch;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
     if(AMnumber == 6){
-
+    nAttack = "";
     attackD = FireBlast;
+    Console.WriteLine($"{nAttack} did {attackD} damage!");
     }
 
 
