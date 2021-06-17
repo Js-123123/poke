@@ -35,23 +35,35 @@ class FireDark : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-    Console.WriteLine($" uses Thunder");
+   
+    attackD = Inferno;
+    Console.WriteLine($"{attackD}");
 
     }
     if(AMnumber == 2){
-    Console.WriteLine("2Sussy Baka");
+
+    attackD = Smog;
+    Console.WriteLine($"{attackD}");
     }
     if(AMnumber == 3){
-    Console.WriteLine("3Sussy Baka");
+
+    attackD = FoulPlay;
+    Console.WriteLine($"{attackD}");
     }
     if(AMnumber == 4){
-    Console.WriteLine("4Sussy Baka");
+
+    attackD = Flamethrower;
+    Console.WriteLine($"{attackD}");
     }
     if(AMnumber == 5){
-    Console.WriteLine("5Sussy Baka");
+
+    attackD = Crunch;
+    Console.WriteLine($"{attackD}");
     }
     if(AMnumber == 6){
-    Console.WriteLine("6Sussy Baka");
+
+    attackD = Bite;
+    Console.WriteLine($"{attackD}");
     }
 
 

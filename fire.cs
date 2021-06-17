@@ -35,23 +35,29 @@ class Fire : Pokemon{
     Random rnd = new Random();
     int AMnumber = rnd.Next(0, 6);
     if(AMnumber == 1){
-    Console.WriteLine($" uses Thunder");
+    attackD = FlameWheel;
+    Console.WriteLine($"{attackD}");
 
     }
     if(AMnumber == 2){
-    Console.WriteLine("2Sussy Baka");
+
+    attackD = BlazeKick;
     }
     if(AMnumber == 3){
-    Console.WriteLine("3Sussy Baka");
+   
+    attackD = HeatWave;
     }
     if(AMnumber == 4){
-    Console.WriteLine("4Sussy Baka");
+  
+    attackD = Inferno;
     }
     if(AMnumber == 5){
-    Console.WriteLine("5Sussy Baka");
+
+    attackD = FirePunch;
     }
     if(AMnumber == 6){
-    Console.WriteLine("6Sussy Baka");
+
+    attackD = FireBlast;
     }
 
 

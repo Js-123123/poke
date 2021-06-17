@@ -132,7 +132,7 @@ class MainClass {
             battleNum --;
           }
           else{
-            Console.WriteLine("Gigalith has fainted?");
+            Console.WriteLine($"{CchoiceH} has fainted?");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");  
             BotBatNum --;
@@ -142,7 +142,7 @@ class MainClass {
           }
           if(PlayerBatNum == 0){
     
-            Console.WriteLine("PLAYER HAS FUMBLED");
+            Console.WriteLine("PLAYER HAS LOST");
           // for the battle loop
           }
           if(BotBatNum == 0)
