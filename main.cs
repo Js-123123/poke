@@ -70,9 +70,9 @@ class MainClass {
         }
         Console.WriteLine("\nChoose Computer's 1st pokemon");
         string CchoiceO = Console.ReadLine();
-        Console.WriteLine("Choose Computer's2nd pokemon");
+        Console.WriteLine("Choose Computer's 2nd pokemon");
         string CchoiceT = Console.ReadLine();
-        Console.WriteLine("Choose Computer's3rd pokemon");
+        Console.WriteLine("Choose Computer's 3rd pokemon");
         string CchoiceH = Console.ReadLine();
         
         
