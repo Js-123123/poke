@@ -24,7 +24,7 @@ d. Create at least six (6) of the derived classes from your UML ❎diagram:
   15) WaterFairy
   16) WaterGround
 
-e. Each derived class needs to override the base Attack method. It should choose (at random) one of the approptiate attacks for that Pokemon.
+e. Each derived class needs to override the base Attack method. It should choose (at random) one of the approptiate attacks for that Pokemon. ❎
 f. Each derived class needs to override the base Evolve method. It should be called when a Pokemon is ready to Evolve and change the name appropriately. 
 g. Create or find a data file (csv recommended) that contains all of the information you require to create a Pokemon. Recommend you only include 10 Pokemon for each Player and Computer.
 ❎

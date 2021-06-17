@@ -80,16 +80,17 @@ class MainClass {
         
         //battle loops 
            
-        for (int i = 0; i < 7; i++){
-          Random rnd = new Random();
-          int number = rnd.Next(0, 6);
+        
           
-        while (battleNum != 0){ 
+          
+        while ((PlayerBatNum > 0) & (BotBatNum > 0)){
+        Random rnd = new Random();
+        int number = rnd.Next(0, 6); 
           if(number == 1){
             Console.WriteLine($"{PchoiceO} has fainted");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             PlayerBatNum --;
             battleNum --;
           }
@@ -97,14 +98,14 @@ class MainClass {
             Console.WriteLine($"{PchoiceT} has fainted");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             battleNum --;
           }
           else if (number == 3){
             Console.WriteLine($"{PchoiceH} has fainted ");
             PlayerBatNum --;
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             PlayerBatNum --;
             battleNum --;
           }
@@ -112,7 +113,7 @@ class MainClass {
             Console.WriteLine($"{CchoiceH} has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             battleNum --;
           
           }
@@ -120,30 +121,32 @@ class MainClass {
             Console.WriteLine($"{CchoiceO}Hydeigon has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             battleNum --;
           }
           else if (number == 6){
             Console.WriteLine($"{CchoiceT} has fainted ");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
             BotBatNum --;
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");
             battleNum --;
           }
           else{
             Console.WriteLine("Gigalith has fainted?");
             Console.WriteLine($"You have {PlayerBatNum} pokemon left");
-            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left");  
+            Console.WriteLine($"Terrorbyte has {BotBatNum} pokemon left\n");  
             BotBatNum --;
             battleNum --;
           }
           
           }
           if(PlayerBatNum == 0){
-            battleNum++;
+    
+            Console.WriteLine("PLAYER HAS FUMBLED");
           // for the battle loop
           }
-          }
+          if(BotBatNum == 0)
+            Console.WriteLine("PLAYER IS VICTORIOUS");
           break;
         case 4:
         //reset hp

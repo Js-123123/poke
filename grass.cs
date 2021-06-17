@@ -29,14 +29,35 @@ class Grass : Pokemon{
 	BulletSeed = 25;
 	MaxKnuckle = 100;
   }
-  //public override void SetAttacks(){
+  public override void Attacks(){
+    string nAttack;
+    int attackD;
+    Random rnd = new Random();
+    int AMnumber = rnd.Next(0, 6);
+    if(AMnumber == 1){
+    Console.WriteLine($" uses Thunder");
+
+    }
+    if(AMnumber == 2){
+    Console.WriteLine("2Sussy Baka");
+    }
+    if(AMnumber == 3){
+    Console.WriteLine("3Sussy Baka");
+    }
+    if(AMnumber == 4){
+    Console.WriteLine("4Sussy Baka");
+    }
+    if(AMnumber == 5){
+    Console.WriteLine("5Sussy Baka");
+    }
+    if(AMnumber == 6){
+    Console.WriteLine("6Sussy Baka");
+    }
 
 
 
 
-
-
-//}
+}
     //getter and setters
   public void SetGigaImpact(int GI){
     GigaImpact = GI;
