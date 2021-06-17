@@ -128,20 +128,19 @@ class MainClass {
           break;
         case 4:
         //reset hp
-          Console.WriteLine($"HP has been reset to max");
-          
+          Console.WriteLine($"HP has been reset to max");        
           break;
         case 5:
         //program exit
-          Console.WriteLine(" Thank you for using the program ");
+          Console.WriteLine("Thank you for using the program ");
           done = true;   
           break;
         default:
           // if the user picks a non 1,2,3,4 number
           Console.WriteLine("❌  That option does not exist ❌\n");
           break;
-    }
-    Console.Write("Press enter to continue");
+    }     
+    Console.Write("\nPress enter to continue");
     Console.ReadLine();
     Console.Clear();
     
